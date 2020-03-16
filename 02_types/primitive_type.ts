@@ -1,7 +1,7 @@
 
 
 
-function add(n1:number, n2:number, showPrint:boolean, phrase:string) {
+function add11(n1:number, n2:number, showPrint:boolean, phrase:string) {
     if(showPrint) console.log(phrase + (n1 + n2));
     else return n1 + n2;
 }
@@ -21,4 +21,4 @@ explicitNumber = 10;
 // const number2:number = 2.8;
 // const showPrint:boolean = true;
 // const phrase:string = 'result is : ';
-add(number1, number2, showPrint, phrase);
+add11(number1, number2, showPrint, phrase);
